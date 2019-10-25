@@ -3,7 +3,7 @@ This is an official implementation of "TriDepth: Triangular Patch-based Deep Dep
 See the [project webpage](https://meshdepth.github.io/) and [demo video]() for more details.
 
 <p align="center">
-    <img src='https://drive.google.com/uc?export=view&id=1SUQUD4fJAIdIWXisrN8-HpNqIqvcVcTn' width=80%/></a>
+    <img src='https://drive.google.com/uc?export=view&id=1SUQUD4fJAIdIWXisrN8-HpNqIqvcVcTn' width=90%/></a>
 </p>
 
 
