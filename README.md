@@ -18,7 +18,7 @@ This code was developed and tested with Python 3.6.8 and PyTorch 1.1.0 on Ubuntu
 
 ``` 
 # Clone this repository with submodule
-git clone --recursive git@gitlab.com:syinari0123/tridepth.git # This repository
+git clone --recursive git@github.com:syinari0123/tridepth.git # This repository
 
 # Install Triangle (version==20190115.3)
 cd thirdparty/triangle
@@ -61,7 +61,7 @@ python setup.py install
 
 ## Dataset
 
-Download the preprocessed [NYU Depth v2](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) dataset in HDF5 formats, (which are distributed in [Sparse-to-Dense](https://github.com/fangchangma/sparse-to-dense.pytorch) by Fangchang et al.) 
+Download the preprocessed [NYU Depth v2](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) dataset in HDF5 formats (from [Sparse-to-Dense](https://github.com/fangchangma/sparse-to-dense.pytorch) by Fangchang et al.).
 The NYU dataset requires 32G of storage space.
 
 ```
