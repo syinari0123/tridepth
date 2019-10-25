@@ -1,7 +1,7 @@
 # Comparison with existing representations
 
-* Point-cloud representation (deep depth prediction [[Eigen+,CVPR'15]](https://cs.nyu.edu/~deigen/dnl/) [[Laina+,3DV'16]](https://github.com/iro-cp/FCRN-DepthPrediction), [[Fu+,CVPR'18]](https://github.com/hufu6371/DORN))
-* Mesh representation (dense-mesh from deep depth prediction + quadric-mesh-simplification)
+* Point-cloud representation (Deep depth prediction [[Eigen+,CVPR'15]](https://cs.nyu.edu/~deigen/dnl/) [[Laina+,3DV'16]](https://github.com/iro-cp/FCRN-DepthPrediction), [[Fu+,CVPR'18]](https://github.com/hufu6371/DORN))
+* Mesh representation (Dense-mesh from deep depth prediction + [Quadric-mesh-simplification](https://github.com/sp4cerat/Fast-Quadric-Mesh-Simplification))
 
 ## Experimental results
 | name | mse(↓) | rmse(↓) | mae(↓) | lg10(↓) | absrel(↓) | irmse(↓) | imae(↓) | delta1(↑) | delta2(↑) | delta3(↑) | num_patch | num_vertex |
