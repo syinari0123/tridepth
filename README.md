@@ -99,6 +99,7 @@ CUDA_VISIBLE_DEVICES=$EMPTY_GPU python inference_nyu.py \
     --model-type "upconv" \
     --pretrained-path $MODEL_PATH \
     --print-progress "true" \
+    --rep-type "mesh" \              # Choose representation type from ["patch_cloud", "mesh"]
     --result-path "result"
 ```
 MODEL_PATH is the file path to the pretrained model (Default: pretrained/weight_upconv.pth).

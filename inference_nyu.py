@@ -62,8 +62,12 @@ def main():
             tridepth = model(scenes, mesh_list)
 
         # Convert tridepth format from depthmap to camera_coords and save it as obj-format.
+        if args.rep_type == "patch_cloud":
+            connect_th = None
+        elif args.rep_type == "mesh":
+            connect_th = 0.1
         tpc_save_file = os.path.join(args.result_path, "{:06d}.obj".format(idx))
-        tridepth.save_into_obj(tpc_save_file, b_idx=0, texture="img", connect_th=None)
+        tridepth.save_into_obj(tpc_save_file, b_idx=0, texture="img", connect_th=connect_th)
 
         # Calculate evaluation scores (and average it)
         pred_depths = tridepth.render_depths(render_size=(height, width))
@@ -94,6 +98,9 @@ if __name__ == "__main__":
     parser.add_argument('--pretrained-path', default="pretrained/weight_upconv.pth", type=str)
     parser.add_argument('--model-type', type=str, default="upconv", choices=["simple", "upconv"])
     parser.add_argument('--seed', default=46, type=int)
+
+    # output representation type
+    parser.add_argument('--rep-type', type=str, default="patch_cloud", choices=["patch_cloud", "mesh"])
 
     # output path
     parser.add_argument('--result-path', type=str, default="result")
