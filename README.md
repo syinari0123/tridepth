@@ -3,7 +3,7 @@ This is an official implementation of "TriDepth: Triangular Patch-based Deep Dep
 See the [project webpage](https://meshdepth.github.io/) and [demo video]() for more details.
 
 <p align="center">
-    <a href='https://photos.google.com/share/AF1QipNDv6-BDq_1_pa_owRaY0K8V5vJKG9H_Bjtu7G8yRyg2y0PwZ_hS3C673WvLuWNlw?key=eWxQRE5lMElQNWw5UVRJNTFOeDVmMzNXcmJJWGJ3&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/vcz2NPLvqB75SEOEcEL_2CyJ0dqW7DQdd31hP0ZDQejW_zBZFCNV0sx8bRhvI_5LKj0Y_XUC4GW4FIsqKrKsV5vDMK5vBbhNeqxmKlz2C7MnKU1Iu8f7MUQiuMdO_bx0NDVHZYr3EQ=w2400' width=80%/></a>
+    <img src='https://drive.google.com/uc?export=view&id=1SUQUD4fJAIdIWXisrN8-HpNqIqvcVcTn' width=80%/></a>
 </p>
 
 
