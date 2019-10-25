@@ -133,7 +133,7 @@ If you use our code or method in your work, please cite our paper!
 ## FAQ
 **What is the difference between [meshdepth](https://arxiv.org/abs/1905.01312) and tridepth?**
 
-Same. We rename our representation from disconnected mesh (in [meshdepth paper](https://arxiv.org/abs/1905.01312)) to triangular-patch-cloud (in tridepth paper).
+Same. We rename our representation from "disconnected mesh" (in [meshdepth paper](https://arxiv.org/abs/1905.01312)) to "triangular-patch-cloud" (in tridepth paper).
 
 
 **Why does your result & score looks better than the result in your ICCVW paper?**
