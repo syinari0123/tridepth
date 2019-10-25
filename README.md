@@ -105,7 +105,7 @@ MODEL_PATH is the file path to the pretrained model (Default: pretrained/weight_
 
 
 ## Comparison with other representations
-See [comparison](_) directory.
+See [comparison](https://github.com/syinari0123/tridepth/tree/master/comparison) directory.
 
 
 ## Pretrained model
