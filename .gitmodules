@@ -1,0 +1,6 @@
+[submodule "thirdparty/triangle"]
+	path = thirdparty/triangle
+	url = https://github.com/drufat/triangle.git
+[submodule "comparison/thirdparty/Fast-Quadric-Mesh-Simplification"]
+	path = comparison/thirdparty/Fast-Quadric-Mesh-Simplification
+	url = https://github.com/sp4cerat/Fast-Quadric-Mesh-Simplification.git
