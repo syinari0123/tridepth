@@ -51,7 +51,7 @@ pip install torch-scatter==1.3.1
 
 ## Installation
 
-Some parts of this code use CUDA implementation from [Neural Mesh Renderer](https://github.com/daniilidis-group/neural_renderer) (PyTorch version by Nikos Kolotouros).
+Some parts of this code use the CUDA implementation from [Neural Mesh Renderer](https://github.com/daniilidis-group/neural_renderer) (PyTorch version by Nikos Kolotouros).
 So you need to build it with following commands.
 
 ``` 
@@ -88,7 +88,7 @@ CUDA_VISIBLE_DEVICES=$EMPTY_GPU python train.py \
     --img-print-freq 1000 \
     --print-progress "true"
 ```
-DATA_DIR is the dataset path (Default: data/nyudepthv2).
+DATA_DIR is a dataset path (Default: data/nyudepthv2).
 
 
 ## Inference
@@ -102,7 +102,7 @@ CUDA_VISIBLE_DEVICES=$EMPTY_GPU python inference_nyu.py \
     --rep-type "patch_cloud" \       # Choose representation type from ["patch_cloud", "mesh"]
     --result-path "result"
 ```
-MODEL_PATH is the file path to the pretrained model (Default: pretrained/weight_upconv.pth).
+MODEL_PATH is a file path to the pretrained model (Default: pretrained/weight_upconv.pth).
 
 
 ## Comparison with other representations
@@ -110,7 +110,7 @@ See [comparison](https://github.com/syinari0123/tridepth/tree/master/comparison)
 
 
 ## Pretrained model
-You can download pretrained model('weight_upconv.pth') with the following command.
+You can download our pretrained model('weight_upconv.pth') with the following command.
 ```
 cd pretrained
 ./download.sh
@@ -125,8 +125,8 @@ Same. We rename our representation from "disconnected mesh" (in [meshdepth paper
 
 **Why does your result & score looks better than the result in your ICCVW paper?**
 
-We update the implementation and re-evaluate our method after paper submission. 
-We'll submit improved version of our paper to arXiv in near future.
+We update our implementation and re-evaluate our method after paper submission. 
+We'll submit an improved version of our paper to arXiv in near future.
 
 
 ## Citation
