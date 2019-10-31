@@ -1,6 +1,6 @@
 # TriDepth: Triangular Patch-based Deep Depth Prediction
 This is an official implementation of "TriDepth: Triangular Patch-based Deep Depth Prediction" presented in [ICCV Deep Learning for Visual SLAM Workshop 2019 (oral)](http://www.visualslam.ai/). 
-See the [project webpage](https://meshdepth.github.io/) and [demo video]() for more details.
+See the [project webpage](https://meshdepth.github.io/) and [demo video](https://www.youtube.com/watch?v=w8qmmqatQgY) for more details.
 
 <p align="center">
     <img src='https://drive.google.com/uc?export=view&id=1SUQUD4fJAIdIWXisrN8-HpNqIqvcVcTn' width=90%/></a>
