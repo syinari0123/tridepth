@@ -8,6 +8,7 @@ h5py == 2.9.0
 matplotlib == 3.0.2
 blessings == 1.7
 progressbar2 == 3.39.2
+future == 0.18.2
 trimesh == 3.2.23
 torch == 1.1.0
 torchvision == 0.3.0
