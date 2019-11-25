@@ -46,7 +46,7 @@ echo $CPATH
 # Then run:
 pip install torch-scatter==1.3.1
 ```
-* [PyMesh](https://pymesh.readthedocs.io/en/latest/index.html)==0.2.1
+* [PyMesh](https://pymesh.readthedocs.io/en/latest/index.html)==0.2.1 (You have to install PyMesh from newest source code according to [this instruction](https://pymesh.readthedocs.io/en/latest/installation.html)!)
 
 
 ## Installation
