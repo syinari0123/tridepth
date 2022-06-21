@@ -1,4 +1,4 @@
-numpy == 1.15.0
+numpy == 1.22.0
 opencv-contrib-python == 3.4.5.20
 wheel == 0.32.3
 scikit-image == 0.14.1
